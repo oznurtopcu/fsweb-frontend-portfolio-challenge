@@ -5,6 +5,11 @@ export default function Hero () {
             <header className="flex items-center justify-end p-2">
                     <div className="flex font-bold gap-4 ">
                         <p className="text-white text-sm"><span className="text-[#CBF281]">TÜRKÇE</span>'YE GEÇ</p>
+                        <label className="relative inline-block w-10 h-5">
+                            <input type="checkbox" className="peer hidden" />
+                            <span className="absolute inset-0 cursor-pointer bg-[#8F88FF] rounded-full transition peer-checked:bg-[#3730A3] peer-focus:ring-2 peer-focus:ring-blue-500"></span>
+                            <span className="absolute top-0.5 left-0.5 w-4 h-4 bg-[#FFE86E] rounded-full transition-transform peer-checked:translate-x-5"></span>
+                        </label>
                         <p className="text-[#CBF281] text-sm">DARK MODE</p>
                     </div>
             </header> 
@@ -20,7 +25,7 @@ export default function Hero () {
                             <a className="p-2 text-[#3730A3] bg-white rounded-md" href="#">LinkedIn</a>
                         </div>
                     </div>
-                    <img className="w-80 h-80 mb-8" src={'../../../images/profile.png'} alt="profile-image" />
+                    <img className="w-80 h-80 mb-8 rounded-4xl" src={'../../../images/profile.png'} alt="profile-image" />
                 </div>
             </div>
         </div>
