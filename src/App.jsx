@@ -5,7 +5,6 @@ function App() {
 
   return (
     <>
-      <p>My Portfolio</p>
       <Hero/>
     </>
   )
