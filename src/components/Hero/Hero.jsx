@@ -20,7 +20,7 @@ export default function Hero () {
                             <a className="p-2 text-[#3730A3] bg-white rounded-md" href="#">LinkedIn</a>
                         </div>
                     </div>
-                    <img className="w-96 h-96 " src='../../images/profile.png' alt="profile-image" />
+                    <img className="w-80 h-80 mb-8" src={'../../../images/profile.png'} alt="profile-image" />
                 </div>
             </div>
         </div>
