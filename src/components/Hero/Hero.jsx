@@ -3,6 +3,8 @@ import { ThemeContext } from "../../contexts/ThemeContext";
 
 export default function Hero () {
     const {theme, toggleTheme} = useContext(ThemeContext);
+    //şu anda useContext'i burada tanımladık, dark-mode özelliğinin butona bağlı olarak açılıp kapandığını görebiliyoruz
+    //Bütün her şeyi tamamlayıp karanlık mod düzenlemesine geçerken App.jsx'e taşı, oradan tüm componentlere prop olarak dağıt
     console.log("theme::::::::::::::", theme);
     return(
         <div className="hero-section flex flex-col justify-center items-center bg-[#4731D3] max-w-[1440px] h-auto">
