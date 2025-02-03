@@ -10,7 +10,7 @@ export default function ThemeContextProvider({children}) {
     //useLocalStorage kullanarak localstorage içinden theme bilgisini çekeceğiz ve sayfayı geçerli temaya göre açacağız
 
     const toggleTheme = () => {
-        setTheme((theme) => (theme === 'dark' ? 'light' : 'dark'));
+        setTheme(theme === 'dark' ? 'light' : 'dark');
     }
 
     return (

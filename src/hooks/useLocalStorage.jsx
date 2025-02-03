@@ -20,6 +20,7 @@ export default function useLocalStorage(key, defaultValue) {
   // value değiştiğinde localstorage'a yazıyoruz
   // ve yeni değeri dönüyoruz
   const setLocalStorage = (newValue) => {
+    console.log(newValue);
     localStorage.setItem(key, JSON.stringify(newValue));
     setValue(newValue);
   };
