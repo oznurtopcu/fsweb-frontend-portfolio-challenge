@@ -1,5 +1,9 @@
 {
     "en": {
+        "langSetting": {
+            "lang": "TÜRKÇE",
+            "langSuffix": "'YE GEÇ"
+        },
         "heroSection": {
             "changeLanguage": ["TÜRKÇE", "'YE GEÇ"],
             "name": "Öznur",
@@ -110,6 +114,10 @@
         }
     },
     "tr": {
+        "langSetting": {
+            "lang": "ENGLISH",
+            "langSuffix": "SWITCH TO"
+        },
         "heroSection": {
             "changeLanguage": ["ENGLISH", "SWITCH TO"],
             "name": "Öznur",
