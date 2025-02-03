@@ -1,4 +1,9 @@
+import { useContext } from "react";
+import { ThemeContext } from "../../contexts/ThemeContext";
+
 export default function Hero () {
+    const {theme, toggleTheme} = useContext(ThemeContext);
+    console.log("theme::::::::::::::", theme);
     return(
         <div className="hero-section flex flex-col justify-center items-center bg-[#4731D3] max-w-[1440px] h-auto">
             <div className="p-4 m-4 font-bold w-[955px] ">
@@ -6,11 +11,12 @@ export default function Hero () {
                     <div className="flex font-bold gap-4 ">
                         <p className="text-white text-sm"><span className="text-[#CBF281]">TÜRKÇE</span>'YE GEÇ</p>
                         <label className="relative inline-block w-10 h-5">
-                            <input type="checkbox" className="peer hidden" />
+                            <input type="checkbox" className="peer hidden" onClick={toggleTheme} />
                             <span className="absolute inset-0 cursor-pointer bg-[#8F88FF] rounded-full transition peer-checked:bg-[#3730A3] peer-focus:ring-2 peer-focus:ring-blue-500"></span>
                             <span className="absolute top-0.5 left-0.5 w-4 h-4 bg-[#FFE86E] rounded-full transition-transform peer-checked:translate-x-5"></span>
                         </label>
                         <p className="text-[#CBF281] text-sm">DARK MODE</p>
+                        <p className="text-[#CBF281] text-sm">{theme}</p>
                     </div>
             </header> 
                 <div>
