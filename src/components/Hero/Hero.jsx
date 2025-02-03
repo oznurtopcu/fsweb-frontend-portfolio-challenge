@@ -6,9 +6,10 @@ export default function Hero () {
     const {theme, toggleTheme} = useContext(ThemeContext);
     //şu anda useContext'i burada tanımladık, dark-mode özelliğinin butona bağlı olarak açılıp kapandığını görebiliyoruz
     //Bütün her şeyi tamamlayıp karanlık mod düzenlemesine geçerken App.jsx'e taşı, oradan tüm componentlere prop olarak dağıt
-    const {lang, toggleLang} = useContext(LanguageContext);
+    const {lang, toggleLang, pageData} = useContext(LanguageContext);
     console.log("theme::::::::::::::", theme);
     console.log("lang:::::::::::::::", lang);
+    console.log("pageData:::::::::::::::", pageData);
     return(
         <div className="hero-section flex flex-col justify-center items-center bg-[#4731D3] max-w-[1440px] h-auto">
             <div className="p-4 m-4 font-bold w-[955px] ">

@@ -1,4 +1,4 @@
-[{
+{
     "en": {
         "heroSection": {
             "changeLanguage": ["TÜRKÇE", "'YE GEÇ"],
@@ -108,5 +108,85 @@
                 }
             ]
         }
+    },
+    "tr": {
+        "heroSection": {
+            "changeLanguage": ["ENGLISH", "SWITCH TO"],
+            "name": "Öznur",
+            "myTitle": "Ben bir Full - Stack Developer'ım...",
+            "myTitleDesc": "...sağlam ve ölçeklenebilir frontend ürünleri oluşturmayı seven bir geliştiriciyim.",
+            "social": [
+                {
+                    "name": "Github",
+                    "icon": ""
+                },
+                {
+                    "name": "LinkedIn",
+                    "icon": ""
+                }
+            ]
+        },
+        "skillsSection": {
+            "title": "Yetenekler",
+            "skills": [
+                {
+                    "name": "JavaScript",
+                    "icon": ""
+                },
+                {
+                    "name": "HTML",
+                    "icon": ""
+                },
+                {
+                    "name": "CSS",
+                    "icon": ""
+                },
+                {
+                    "name": "React",
+                    "icon": ""
+                },
+                {
+                    "name": "Redux",
+                    "icon": ""
+                },
+                {
+                    "name": "VS Code",
+                    "icon": ""
+                },
+                {
+                    "name": "Figma",
+                    "icon": ""
+                }
+            ]
+        },
+        "profileSection": {
+            "title": "Profil",
+            "information": {
+                "title": "Temel Bilgiler",
+                "info": [
+                    {
+                        "info": "Doğum",
+                        "text": "01.11.1999"
+                    },
+                    {
+                        "info": "Şehir",
+                        "text": "Ankara"
+                    },
+                    {
+                        "info": "Eğitim",
+                        "text": "Gazi Ünv. Elektrik Elektronik Müh. Lisans, 2022"
+                    },
+                    {
+                        "info": "Roller",
+                        "text": "Frontend"
+                    }
+                ]
+            },
+            "about": {
+                "title": "Hakkımda",
+                "paragraph": "Ankara'da yaşayan bir Junior Developer'ım. Elektrik ve Elektronik Mühendisliği lisans eğitimimden sonra yazılım geliştirme alanına geçiş yaptım. Kendimi yaratıcı, öğrenmeye aç, gelişim odaklı, sorumluluk sahibi ve takım çalışmasına yatkın biri olarak görüyorum."
+            }
+        }
     }
-}]
+
+}
