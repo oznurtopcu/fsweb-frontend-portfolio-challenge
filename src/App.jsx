@@ -15,8 +15,8 @@ function App() {
   const {langSetting} = pageData;
 
   return (
-    <div>
-      <div className='bg-[#4731D3] flex justify-center p-4 max-w-[1440px]'>
+    <div className={theme ==='dark' ? 'dark' : ''}>
+      <div className='bg-[#4731D3] dark:bg-[#171043] flex justify-center p-4 max-w-[1440px]'>
       <header className="flex items-center justify-end p-4 font-bold w-[955px]">
         <div className="flex font-bold gap-4 ">
             <p className="text-white text-sm">{lang==='tr' && langSetting?.langSuffix} <span onClick={toggleLang} className="text-[#CBF281] cursor-pointer">{langSetting?.lang}</span>{lang==='en' && langSetting?.langSuffix}</p>

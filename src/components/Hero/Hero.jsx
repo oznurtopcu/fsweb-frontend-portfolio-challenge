@@ -14,7 +14,7 @@ export default function Hero (props) {
     console.log("heroData:::::::::::::::", heroData);
     //const {name, myTitle, myTitleDesc,social} = heroData;
     return(
-        <div className="hero-section flex flex-col justify-center items-center bg-[#4731D3] max-w-[1440px] h-auto">
+        <div className="hero-section flex flex-col justify-center items-center bg-[#4731D3] max-w-[1440px] h-auto dark:bg-[#171043]">
             <div className="p-4 m-4 font-bold w-[955px] ">
             {/* <header className="flex items-center justify-end p-2">
                     <div className="flex font-bold gap-4 ">
