@@ -38,7 +38,7 @@ export default function Hero (props) {
                         <p className="text-2xl">{heroData?.myTitleDesc}</p>
                         <div className="flex gap-4">
                             {heroData?.social.map((item, index) => {
-                                return <a className="p-2 text-[#3730A3] bg-white rounded-md" key={index} href={item.link}>{item.name}</a>
+                                return <a className="p-2 text-[#3730A3] bg-white rounded-md dark:bg-[#252128] dark:text-white" key={index} href={item.link}>{item.name}</a>
                             })}
                         </div>
                     </div>
