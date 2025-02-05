@@ -19,7 +19,7 @@ function App() {
       <div className='bg-[#4731D3] dark:bg-[#171043] flex justify-center p-4 max-w-[1440px]'>
       <header className="flex items-center justify-end p-4 font-bold w-[955px]">
         <div className="flex font-bold gap-4 ">
-            <p className="text-white text-sm">{lang==='tr' && langSetting?.langSuffix} <span onClick={toggleLang} className="text-[#CBF281] cursor-pointer">{langSetting?.lang}</span>{lang==='en' && langSetting?.langSuffix}</p>
+            <button onClick={toggleLang} className="text-white text-sm cursor-pointer">{lang==='tr' && langSetting?.langSuffix} <span className="text-[#CBF281]">{langSetting?.lang}</span>{lang==='en' && langSetting?.langSuffix}</button>
             {/* düzeltilmesi gerekiyor, şu anda biraz yavaş çalışıyor gibi, her seferinde istek atıyor */}
             <label className="relative inline-block w-10 h-5">
               <input type="checkbox" className="peer hidden" onClick={toggleTheme} checked={theme==='dark'} />
@@ -31,7 +31,7 @@ function App() {
       </header> 
       </div>
       <Hero heroData={pageData.heroSection}/>
-      <Skills/>
+      <Skills skillsData={pageData.skillsSection}/>
     </div>
   )
 }
