@@ -25,31 +25,23 @@
             "skills": [
                 {
                     "name": "JavaScript",
-                    "icon": ""
-                },
-                {
-                    "name": "HTML",
-                    "icon": ""
-                },
-                {
-                    "name": "CSS",
-                    "icon": ""
+                    "icon": "js.png"
                 },
                 {
                     "name": "React",
-                    "icon": ""
+                    "icon": "react.png"
                 },
                 {
-                    "name": "Redux",
-                    "icon": ""
+                    "name": "Node.JS",
+                    "icon": "node.png"
                 },
                 {
                     "name": "VS Code",
-                    "icon": ""
+                    "icon": "vscode.png"
                 },
                 {
                     "name": "Figma",
-                    "icon": ""
+                    "icon": "figma.png"
                 }
             ]
         },
