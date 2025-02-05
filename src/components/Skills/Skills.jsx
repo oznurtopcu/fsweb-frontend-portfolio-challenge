@@ -1,16 +1,23 @@
-export default function Skills() {
+export default function Skills(props) {
+    const {skillsData} = props;
+    console.log("skillsData::::::::", skillsData);
+    //console.log(skillsData.skills);
     return(
-        <div className="skills-section flex flex-row ">
-            
-            <div>
+        <div className="skills-section flex flex-col justify-center items-center max-w-[1440px] h-auto ">
+            <div className="flex w-[955px] items-start justify-between gap-12 p-4 m-4">
                 <div>
-                    <p className="text-bold text-3xl text-[#3730A3]">Skills</p>
+                    <p className="font-bold text-3xl text-[#4832D3] w-48">{skillsData?.title}</p>
                 </div>
-                <div className="skills-list">
-                    <div>
-                        <img src="" alt="" />
-                        <p>JavaScript</p>
-                    </div>
+                <div className="skills-list flex flex-wrap ">
+                    {skillsData?.skills.map((item,index) => {
+                        return (
+                            <div className="flex items-center gap-4 mb-12 w-1/2">
+                                <img className="w-24" src={"../../../images/skills/"+(item.icon)} alt={item.name} />
+                                <p className="text-bold text-xl text-[#777777] ">{item.name}</p>
+                            </div>
+                        )
+                        
+                    })}
                 </div>
             </div>
 
