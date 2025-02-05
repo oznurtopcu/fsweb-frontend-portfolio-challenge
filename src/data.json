@@ -26,23 +26,23 @@
             "title": "Skills",
             "skills": [
                 {
-                    "name": "JavaScript",
+                    "name": "JAVASCRIPT",
                     "icon": "js.png"
                 },
                 {
-                    "name": "React",
+                    "name": "REACT",
                     "icon": "react.png"
                 },
                 {
-                    "name": "Node.JS",
+                    "name": "NODE.JS",
                     "icon": "node.png"
                 },
                 {
-                    "name": "VS Code",
+                    "name": "VS CODE",
                     "icon": "vscode.png"
                 },
                 {
-                    "name": "Figma",
+                    "name": "FIGMA",
                     "icon": "figma.png"
                 }
             ]
@@ -134,23 +134,23 @@
             "title": "Yetenekler",
             "skills": [
                 {
-                    "name": "JavaScript",
+                    "name": "JAVASCRIPT",
                     "icon": "js.png"
                 },
                 {
-                    "name": "React",
+                    "name": "REACT",
                     "icon": "react.png"
                 },
                 {
-                    "name": "Node.JS",
+                    "name": "NODE.JS",
                     "icon": "node.png"
                 },
                 {
-                    "name": "VS Code",
+                    "name": "VS CODE",
                     "icon": "vscode.png"
                 },
                 {
-                    "name": "Figma",
+                    "name": "FIGMA",
                     "icon": "figma.png"
                 }
             ]
