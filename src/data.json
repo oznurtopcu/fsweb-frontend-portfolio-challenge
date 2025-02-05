@@ -182,6 +182,25 @@
                 "title": "Hakkımda",
                 "paragraph": "Ankara'da yaşayan bir Junior Developer'ım. Elektrik ve Elektronik Mühendisliği lisans eğitimimden sonra yazılım geliştirme alanına geçiş yaptım. Kendimi yaratıcı, öğrenmeye aç, gelişim odaklı, sorumluluk sahibi ve takım çalışmasına yatkın biri olarak görüyorum."
             }
+        },
+        "footerSection": {
+            "sendMe": "Bana bir mesaj gönderin!",
+            "text": "Bir sorunuz mu var, teklif mi vermek istiyorsunuz ya da sadece merhaba mı demek istiyorsunuz? Çekinmeden yazın.",
+            "mail": "topcuoznur121@gmail.com",
+            "icons": [
+                {
+                    "alt_text": "LinkedIn",
+                    "logo": ""
+                },
+                {
+                    "alt_text": "Github",
+                    "logo": ""
+                },
+                {
+                    "alt_text": "Gmail",
+                    "logo": ""
+                }
+            ]
         }
     }
 
