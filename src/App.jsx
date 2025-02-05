@@ -17,7 +17,8 @@ function App() {
   const {langSetting} = pageData;
 
   return (
-    <div className={theme ==='dark' ? 'dark' : ''}>
+    // className={theme ==='dark' ? 'dark' : ''}
+    <div>
       <div className='bg-[#4731D3] dark:bg-[#171043] flex justify-center p-4 max-w-[1440px]'>
       <header className="flex items-center justify-end p-4 font-bold w-[955px]">
         <div className="flex font-bold gap-4 ">

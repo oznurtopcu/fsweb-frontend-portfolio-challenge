@@ -1,4 +1,4 @@
-import { createContext } from "react";
+import { createContext, useEffect } from "react";
 import useLocalStorage from "../hooks/useLocalStorage";
 
 export const ThemeContext = createContext();
@@ -12,6 +12,15 @@ export default function ThemeContextProvider({children}) {
     const toggleTheme = () => {
         setTheme(theme === 'dark' ? 'light' : 'dark');
     }
+
+    //direkt olarak html tagine dark classını ekliyoruz
+    useEffect(() => {
+        if (theme === 'dark') {
+          document.documentElement.classList.add("dark");
+        } else {
+          document.documentElement.classList.remove("dark");
+        }
+      }, [theme]);
 
     return (
         <ThemeContext.Provider value={{theme, toggleTheme}}>
