@@ -12,11 +12,13 @@
             "social": [
                 {
                     "name": "Github",
-                    "icon": ""
+                    "icon": "",
+                    "link":"https://github.com/oznurtopcu"
                 },
                 {
                     "name": "LinkedIn",
-                    "icon": ""
+                    "icon": "",
+                    "link":"https://linkedin.com/in/oznurtopcu"
                 }
             ]
         },
@@ -60,7 +62,7 @@
                     },
                     {
                         "info": "Education",
-                        "text": "Gazi Ünv. Elektrik Elektronik Müh. Lisans, 2022"
+                        "text": "Gazi University Electrical & Electronics Eng."
                     },
                     {
                         "info": "Roles",
@@ -118,11 +120,13 @@
             "social": [
                 {
                     "name": "Github",
-                    "icon": ""
+                    "icon": "",
+                    "link":"https://github.com/oznurtopcu"
                 },
                 {
                     "name": "LinkedIn",
-                    "icon": ""
+                    "icon": "",
+                    "link":"https://linkedin.com/in/oznurtopcu"
                 }
             ]
         },
@@ -166,7 +170,7 @@
                     },
                     {
                         "info": "Eğitim",
-                        "text": "Gazi Ünv. Elektrik Elektronik Müh. Lisans, 2022"
+                        "text": "Gazi Ünv. Elektrik Elektronik Müh."
                     },
                     {
                         "info": "Roller",

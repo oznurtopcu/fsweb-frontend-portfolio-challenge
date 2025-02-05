@@ -37,8 +37,9 @@ export default function Hero (props) {
                         <p className="text-[#CBF281] text-5xl">{heroData?.myTitle}</p>
                         <p className="text-2xl">{heroData?.myTitleDesc}</p>
                         <div className="flex gap-4">
-                            <a className="p-2 text-[#3730A3] bg-white rounded-md" href="#">Github</a>
-                            <a className="p-2 text-[#3730A3] bg-white rounded-md" href="#">LinkedIn</a>
+                            {heroData?.social.map((item, index) => {
+                                return <a className="p-2 text-[#3730A3] bg-white rounded-md" key={index} href={item.link}>{item.name}</a>
+                            })}
                         </div>
                     </div>
                     <img className="w-80 h-80 mb-8 rounded-4xl" src={'../../../images/profile.png'} alt="profile-image" />
