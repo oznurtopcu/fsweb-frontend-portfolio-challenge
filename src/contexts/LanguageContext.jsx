@@ -1,15 +1,17 @@
 import axios from "axios";
 import { createContext, useEffect, useState } from "react";
 import jsonData from '../data.json';
+import useLocalStorage from "../hooks/useLocalStorage";
 
 export const LanguageContext = createContext();
 
 const systemLang = navigator.language === 'tr-TR' ? 'tr' : 'en';
-console.log("systemLang:::::::::::::::::::", systemLang);
+//console.log("systemLang:::::::::::::::::::", systemLang);
 //burada tarayıcı dilini tam olarak algılayamadım, detaylandıracağım
 
 export default function LanguageContextProvider({children}) {
-    const [lang, setLang] = useState('tr');
+    //const [lang, setLang] = useState('tr');
+    const [lang, setLang] = useLocalStorage('language', 'tr');
     const [pageData, setPageData] = useState({});
 
     const toggleLang = () => {
