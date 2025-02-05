@@ -5,6 +5,7 @@ import Skills from './components/Skills/Skills';
 import { LanguageContext } from './contexts/LanguageContext';
 import { ThemeContext } from './contexts/ThemeContext';
 import Profile from './components/Profile/Profile';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const {theme, toggleTheme} = useContext(ThemeContext);
@@ -34,6 +35,7 @@ function App() {
       <Hero heroData={pageData.heroSection}/>
       <Skills skillsData={pageData.skillsSection}/>
       <Profile profileData={pageData.profileSection}/>
+      <Footer footerData={pageData.footerSection}/>
     </div>
   )
 }
