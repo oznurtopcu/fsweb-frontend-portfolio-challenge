@@ -11,7 +11,7 @@ export default function Skills(props) {
                 <div className="skills-list flex flex-wrap ">
                     {skillsData?.skills.map((item,index) => {
                         return (
-                            <div className="flex items-center gap-4 mb-12 w-1/2">
+                            <div key={index} className="flex items-center gap-4 mb-12 w-1/2">
                                 <img className="w-24" src={"../../../images/skills/"+(item.icon)} alt={item.name} />
                                 <p className="text-bold text-xl text-[#777777] ">{item.name}</p>
                             </div>
