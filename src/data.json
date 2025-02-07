@@ -78,13 +78,19 @@
         "projectsSection": [
             {
                 "title": "Pizza Order Project",
-                "image": "",
+                "image": "pizza-project.png",
                 "description": "A simple, customizable, minimal pizza order app.",
                 "technologies": ["react", "cypress", "vercel"],
-                "links": {
-                    "site": "",
-                    "github": ""
-                }
+                "links": [
+                    {
+                        "name": "View Site",
+                        "link":"https://linkedin.com/in/oznurtopcu"
+                    },
+                    {
+                        "name": "Github",
+                        "link":"https://github.com/oznurtopcu"
+                    }
+                ]
             }
         ],
         "footerSection": {
@@ -183,6 +189,24 @@
                 "paragraph": "Ankara'da yaşayan bir Junior Developer'ım. Elektrik ve Elektronik Mühendisliği lisans eğitimimden sonra yazılım geliştirme alanına geçiş yaptım. Kendimi yaratıcı, öğrenmeye aç, gelişim odaklı, sorumluluk sahibi ve takım çalışmasına yatkın biri olarak görüyorum."
             }
         },
+        "projectsSection": [
+            {
+                "title": "Pizza Order Project",
+                "image": "pizza-project.png",
+                "description": "A simple, customizable, minimal pizza order app.",
+                "technologies": ["react", "cypress", "vercel"],
+                "links": [
+                    {
+                        "name": "View Site",
+                        "link":"https://linkedin.com/in/oznurtopcu"
+                    },
+                    {
+                        "name": "Github",
+                        "link":"https://github.com/oznurtopcu"
+                    }
+                ]
+            }
+        ],
         "footerSection": {
             "sendMe": "Bana bir mesaj gönderin!",
             "text": "Bir sorunuz mu var, teklif mi vermek istiyorsunuz ya da sadece merhaba mı demek istiyorsunuz? Çekinmeden yazın.",
